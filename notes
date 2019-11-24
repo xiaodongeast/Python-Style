@@ -1,0 +1,65 @@
+https://www.datacamp.com/community/tutorials/pep8-tutorial-python-code
+My notes about python style from the datacamp.
+
+Use 4 spaces for indentation
+keep the expression vertically aligned
+
+a line length of 79 characters
+Comments should have 72 characters of line length
+
+top-level function and classes are separated by two blank lines
+Method definitions inside classes should be separated by one blank line
+
+state each import on a single line.
+Standard library imports.
+Related third-party imports.
+Local application/library specific imports.
+you should try to avoid wildcard imports
+
+
+Block comments are indented at the same level as the code. 
+Each line of a block comment begins with the hashtag # and a single space. 
+If you need to use more than one paragraph, 
+they should be separated by a line that contains a single #.
+You write documentation strings or docstrings at the start of public modules, files, classes and methods. 
+These type of comments start with """ and end with """
+
+
+module level dunder like (__all__, __author__, __version__) should be placed at the module main docstring 
+and should be before all the import statements. 
+You should define the from __future__ imports before any other code, except the docstrings:
+
+Identifier	        Convention
+Module	            lowercase
+Class       	      CapWords
+Functions	          lowercase
+Methods     	      lowercase
+Type variables	    CapWords
+Constants	          UPPERCASE
+Package	            lowercase
+
+
+
+
+
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!

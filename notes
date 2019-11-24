@@ -10,7 +10,7 @@ Comments should have 72 characters of line length
 top-level function and classes are separated by two blank lines
 Method definitions inside classes should be separated by one blank line
 
-state each import on a single line.
+state each import on a single line. Seq of the imports:
 Standard library imports.
 Related third-party imports.
 Local application/library specific imports.
